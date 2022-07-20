@@ -31,7 +31,7 @@ components:
           -Duser.home=/home/user"
       - name: MAVEN_OPTS
         value: $(JAVA_OPTS)
-    memoryLimit: 4294Mi
+    memoryLimit: 3000Mi
     endpoints:
       - name: '8080-tcp'
         port: 8080
