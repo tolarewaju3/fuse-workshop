@@ -32,7 +32,7 @@ components:
       - name: MAVEN_OPTS
         value: $(JAVA_OPTS)
     memoryLimit: 3000Mi
-    cpuLimit: 250m
+    cpuLimit: 100m
     endpoints:
       - name: '8080-tcp'
         port: 8080
