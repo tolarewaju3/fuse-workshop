@@ -20,7 +20,7 @@ components:
   -
     type: dockerimage
     alias: tools
-    image: 'registry.redhat.io/codeready-workspaces/plugin-java8-rhel8@sha256:5b2df65e7ec4676a43b763b431744790a89acd5c6d197316b694693b58c19770'
+    image: 'registry.redhat.io/codeready-workspaces/plugin-java11-rhel8@sha256:d0337762e71fd4badabcb38a582b2f35e7e7fc1c9c0f2e841e339d45b7bd34ed'
     env:
       - name: MAVEN_CONFIG
         value: ""
